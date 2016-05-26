@@ -1,0 +1,15 @@
+.navbar{
+	height: 40px;
+	border: 1px solid #ccc;
+}
+
+.nav > li{
+	width: 114px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+.nav > li > a{
+	color: #333;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../weichuang.css">
+	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="dropdown.css">
+
+</head>
+<body>
+	<div class="navbar">
+		<ul class="nav">
+			<li class="dropdown">
+				<a class="level1" href="#">菜单1</a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">Action</a></li>
+				  <li><a href="#">Another action</a></li>
+				  <li><a href="#">Something else here</a></li>
+				  <li><a href="#">Separated link</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">菜单2</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<script src="../jquery-1.11.3.min.js"></script>
+	<script src="dropdown.js"></script>
+	<script>
+		$('.level1').dropdown();
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
