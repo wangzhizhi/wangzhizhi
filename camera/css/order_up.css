@@ -1,0 +1,61 @@
+#container{
+	margin-top: 20px;
+}
+#container .confirm-address{
+	font-size: 25px;
+	font-family: "微软雅黑";
+	color: #fba1a1;
+}
+#container .address{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	width: 1198px;
+	height: 40px;
+	border: 1px solid #fba1a1;
+	text-indent: 20px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+#container .confirm-order{
+	font-size: 25px;
+	font-family: "微软雅黑";
+	color: #fba1a1;
+	margin-top: 20px;
+}
+#container .order{
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+#container .order td{
+	border-bottom: 1px solid #fba1a1;
+}
+.order img{
+	width: 124px;
+	height: 124px;
+	float: left;
+}
+.order p{
+	text-indent: 10px;
+	font-family: "微软雅黑";
+	line-height: 28px;
+}
+.pay{
+	width: 452px;
+	height: 126px;
+	border: 1px solid #9e86c5;
+	float: right;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+.sub{
+	width: 126px;
+	height: 34px;
+	background: #9e86c5;
+	line-height: 34px;
+	text-align: center;
+	font-size: 15px;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+}

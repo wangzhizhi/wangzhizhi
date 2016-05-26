@@ -1,0 +1,213 @@
+#container{
+	padding-top: 50px;
+	min-height: 1000px;
+	background: #f3f3f3;
+}
+#container .nav{
+	float: left;
+}
+.nav li{
+	text-indent: 60px;
+	display: block;
+	width: 200px;
+	height: 54px;
+	line-height: 54px;
+	background: #fba1a1;
+	font-family: "微软雅黑";
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+}
+.nav span{
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+.nav span img{
+	width: 200px;
+	height: 200px;
+}
+.nav .selected,.nav .hover{
+	background: #fc7d7d;
+	font-size: 18px;
+	border-bottom: 1px solid #f64a4a;
+}
+#container .wrap > div{
+	float: right;
+}
+#container .personal{
+	/*padding-top: 40px;*/
+	padding-left: 80px;
+	width: 820px;
+	height: 400px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 50px;
+}
+#container .contact{
+	/*padding-top: 40px;*/
+	padding-left: 80px;
+	width: 820px;
+	height: 750px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 50px;
+}
+.contact textarea{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.tolley{
+	background: #fff;
+	position: relative;
+}
+
+.order-list{
+	border-collapse:collapse;
+	width: 831px;
+	font-size: 14px;
+	/*min-height: 614px;*/
+}
+.order-list .order-list-head{
+	height: 47px;
+	line-height: 47px;
+	border: 1px solid #e1e1e1;
+	background: #f5f5f5;
+	color: #767676;
+}
+.order-num{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	height: 43px;
+	background: #eaf8ff;
+	border-right: 1px solid #eaf8ff;
+}
+.cake-order{
+	height: 94px;
+	border-bottom: 1px solid #f3fbff;
+}
+.cake-order .cake-img{
+	float: left;
+}
+.cake-order img{
+	width: 77px;
+	height: 77px;
+}
+.cake-order p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: '微软雅黑';
+}
+.cake-order a{
+	color: #000;
+}
+.cake-order .cake-kind{
+	color: #8a8a8a;
+}
+.contact-seller{
+	margin-left: 35px;
+	display: block;
+	width: 79px;
+	height: 23px;
+	background: #1c9eff;
+	width: 79px;
+	line-height: 23px;
+	cursor: pointer;
+	text-align: center;
+}
+.contact-seller a{
+	color: #fff;
+}
+.cake-order .cake-order-style,.cake-order .cake-name{
+	text-indent: 0;
+	margin-left: 110px;
+	text-align: left;
+}
+.cake-order .cake-order-style1,.cake-order .cake-name1{
+	text-indent: 0;
+	margin-left: 142px;
+	text-align: left;
+}
+.cake-order input{
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.cake-order .num-add{
+	float: right;
+	width: 17px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+.cake-order .num-reduce{
+	float: left;
+	width: 17px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+.cake-order .cake-num{
+	margin-left: 20px;
+	width: 77px;
+	height: 25px;
+	background: url("../img/sprite1.png")no-repeat 0 -191px;
+}
+.cake-order .cake-num .cake-num-val{
+	float: left;
+	width: 40px;
+	height: 23px;
+	margin: 0;
+	border: 1px solid #aaa;
+	outline: none;
+	text-align: center;
+	line-height: 23px;
+	background: #fff;
+}
+.delete{
+	cursor: pointer;
+}
+#btn-load{
+	display: block;
+	width: 831px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fba1a1;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+table{
+	background: #fff;
+}
+#mask{
+	width: 831px;
+	height: 300px;
+	background: #fba1a1;
+	line-height: 300px;
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+}
+.accounts{
+	position: absolute;
+	bottom: -47px;
+	height: 47px;
+	background: #6fc0fb;
+}
+.accounts li{
+	float: left;
+	text-indent: 20px;
+	/*text-align: center;*/
+	line-height: 47px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+
