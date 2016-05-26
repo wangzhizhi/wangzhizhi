@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+  <head>
+    <title>daohang</title>
+  </head>
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+<body>
+ 	<div id="div1">
+ 	cccccccccc
+ 		<div id="div2">aaaaaaaaaaa</div>
+ 		<p>
+ 			<p>Test</p> Paragraph.
+ 			<p>bbbbbbbbbb</p>
+ 		</p>
+ 		<p></p>
+ 	</div>	
+
+ 	<ul id="one" class="level-1">
+	  <li class="item-i">I</li>
+	  <li id="ii" class="item-ii">II
+		  <ul class="level-2">
+		    <li class="item-a">A</li>
+		    <li class="item-b">B
+		      <ul class="level-3">
+		        <li class="item-1">1</li>
+		        <li class="item-2">2</li>
+		        <li class="item-3">3</li>
+		      </ul>
+		    </li>
+		    <li class="item-c">C</li>
+		  </ul>
+	  </li>
+	  <li class="item-iii">III</li>
+	</ul>
+
+</body>
+	<script>
+	//children为第一个孩子
+		$('#div1').children().click(function(){
+			alert($(this).html());
+		});
+
+		alert($("#div1:first").text()) ;
+	//closest 找同一级别，包括自己
+		// $('li.item-a').closest('ul').css('background-color', 'red');
+	//发现此元素后代（不包括自己）
+		$('li.item-ii').find('li').css('background-color', 'red');
+		
+	</script>
+</html> 

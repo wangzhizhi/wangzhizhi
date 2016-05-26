@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+  <head>
+    <title>daohang</title>
+  </head>
+  <link rel="stylesheet" href="css/login_reg.css">
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/commen.js"></script>
+	<script src="js/reg_login.js"></script>
+  <body>
+<div class="container2">
+  	<div id="header">
+  		<div id="logo"><img src="imgs/logo3.png" alt=""><span>体育网</span></div>
+  		<div id="nav">
+    	<ul>
+    		<li class="borderli"></li>
+    		<li>首页</li>
+    		<li class="borderli"></li>
+    		<li id="header_zixun">体育资讯</li>
+    		<li class="borderli"></li>
+    		<li  id="jujiao_list">
+    			<a href="javascript: " class="icon-align-justify">  聚焦</a>
+    			<div id="jujiao2">
+    				<div id="jujiao">
+    				<ul>
+					<li id="cba_t"><a href="javascript: ">CBA</a></li>
+					<li id="nba_t"><a href="javascript: ">NBA</a></li>
+					<li id="zgz_t"><a href="javascript: ">中国足球</a></li>
+					<li id="gjz_t"><a href="javascript: ">国际足球</a></li>
+					<li><a href="javascript: ">其他</a></li>
+				</ul>
+    			</div>
+    			</div>   			
+    		</li>
+    		<li class="borderli"></li>
+    		<li id="header_zhibojian">视频集锦</li>
+    		<li class="borderli"></li>
+    		<li id="header_shequ">图片集锦</li>
+    		<li class="borderli"></li>
+    		<li id="header_aboutme" class=" icon-github-alt">个人中心</li>
+    		<li class="borderli"></li>
+    	</ul>
+    </div>
+    <div id="login">
+  			<a href="#" id="login_in" class="icon-user">  登陆 |</a>
+  			<a href="#" id="reg_in">注册</a>
+  	</div>
+  		<!-- <a href="#" id="header_shouye">首页</a>
+  		<div id="header_pindao">
+  			<a href="#" class="icon-align-justify">  频道</a>
+  		</div> -->
+  		<!-- <div id="search">
+  			<input type="text" value="输入你要查找的节目..." class="search_input">
+  			<div class="search_btn">
+  				<span class="icon-search"> 搜索</span>
+  			</div>	
+  		</div> --> 		
+  	</div>
+	<div id="wdly">
+		<a href="http://v.qq.com/cover/7/71qhdj4u1oejyjj.html?vid=k001908c1cw">
+			<img src="imgs/w1.png" id="wdly1" alt="">
+			<span class="mouse1"></span>
+		</a>
+		<a href="http://v.qq.com/cover/7/71qhdj4u1oejyjj.html?vid=v0019ldmtzi">
+  			<img src="imgs/w2.png" alt="" id="wdly2">
+			<span class="mouse2"></span>
+		</a>
+		<a href="http://v.qq.com/cover/7/71qhdj4u1oejyjj.html?vid=e0019qb03la">
+  			<img src="imgs/w3.png" alt="" id="wdly3">
+			<span class="mouse3"></span>
+		</a>
+  	<div class="clearfloat"></div>
+  	</div>
+	
+  	<!-- 轮播图and要闻-->
+<div class="container">
+	<div id="slide">
+		<ul id="tab">
+			<li class="selected"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div id="imgs">
+			<img class="selected" src="imgs/1.jpg" alt="">
+			<img src="imgs/2.jpg" alt="">
+			<img src="imgs/3.jpg" alt="">
+			<img src="imgs/4.jpg" alt="">
+		</div>
+		<div id="imgs_text">
+			aaaaaaaaaaa
+		</div>
+			<span id="prev" class="arrow">&lt;</span>
+			<span id="next" class="arrow">&gt;</span>
+	</div>
+	<div id="news_top">
+		<div class="infor_top_title">今日热闻</div>
+		<ul id="news_imp">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+
+		</ul>
+	</div>
+</div>
+	<div class="clearfloat"></div><!-- 清除子元素浮动导致父元素不能自适应高度的问题 -->
+</div>
+<!-- 热门榜and最新资讯 -->
+<div class="container">
+	<div id="information">
+		<div id="infor_top">
+			<div class="infor_top_title">周排行</div>
+			<ul id="infor_top_content">
+				<li><span>1</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>2</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>3</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>4</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>5</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>6</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>7</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>8</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>9</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+				<li><span>10</span><a href="">西蒙斯隔扣领衔9日NBA五佳球</a></li>
+			</ul>
+		</div>
+		<div id="news">
+			<div class="infor_top_title ">
+				最新资讯
+			</div>
+			<ul>
+			<li class="news_title">
+				<a href="">哈登欧洲步上篮不中 霍华德跟上暴力补扣</a>
+			</li>
+			<li class="news_contents">
+				<img src="imgs/z1.jpg" alt="">
+				<p>和76人的比赛，哈登欧洲步上篮不中，霍华德暴力补扣得分。</p>
+				
+					<span>2016-03-05</span>
+					<b class=" icon-pencil">评论(0)</b>			
+			</li>
+		</ul>
+
+		<ul>
+		<li class="news_title">
+			<a href="">哈登欧洲步上篮不中 霍华德跟上暴力补扣</a>
+		</li>
+		<li class="news_contents">
+			<img src="imgs/z2.jpg" alt="">
+			<p>和76人的比赛，哈登欧洲步上篮不中，霍华德暴力补扣得分。</p>
+			
+				<span>2016-03-05</span>
+				<b class=" icon-pencil">评论(0)</b>				
+		</li>
+	</ul>
+	<ul>
+		<li class="news_title">
+			<a href="">哈登欧洲步上篮不中 霍华德跟上暴力补扣</a>
+		</li>
+		<li class="news_contents">
+			<img src="imgs/z1.jpg" alt="">
+			<p>和76人的比赛，哈登欧洲步上篮不中，霍华德暴力补扣得分。</p>
+			
+				<span>2016-03-05</span>
+				<b class=" icon-pencil">评论(0)</b>				
+		</li>
+	</ul>
+	<ul>
+		<li class="news_title">
+			<a href="">哈登欧洲步上篮不中 霍华德跟上暴力补扣</a>
+		</li>
+		<li class="news_contents">
+			<img src="imgs/z2.jpg" alt="">
+			<p>和76人的比赛，哈登欧洲步上篮不中，霍华德暴力补扣得分。</p>
+			
+				<span>2016-03-05</span>
+				<b class=" icon-pencil">评论(0)</b>				
+		</li>
+	</ul>
+	<ul>
+		<li class="news_title">
+			<a href="">哈登欧洲步上篮不中 霍华德跟上暴力补扣</a>
+		</li>
+		<li class="news_contents">
+			<img src="imgs/z3.jpg" alt="">
+			<p>和76人的比赛，哈登欧洲步上篮不中，霍华德暴力补扣得分。</p>
+			
+				<span>2016-03-05</span>
+				<b class=" icon-pencil">评论(0)</b>				
+		</li>
+	</ul>		
+		</div>
+	</div>
+	<div class="clearfloat"></div><!-- 清除子元素浮动导致父元素不能自适应高度的问题 -->
+</div>
+
+<!-- 聚焦体坛 -->
+<div class="container2">
+	<div class="container">
+	<!-- NBA -->
+	<div id="nba">
+		<div class="title">NBA<img src="imgs/篮球.png" alt=""><i class="fa fa-bluetooth"></i></div>
+	<div id="nba_container">
+	   <div class="nba_con">
+	   		<img src="imgs/j1.jpg" alt="">
+		<ul>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+		</ul>
+	   </div>
+
+	   <div class="nba_con">
+	   		<img src="imgs/j1.jpg" alt="">
+		<ul>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+		</ul>
+	   </div>
+	   <div class="nba_con">
+	   		<img src="imgs/j1.jpg" alt="">
+		<ul>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+		</ul>
+	   </div>
+	</div>
+	</div>
+	</div>
+	<div class="clearfloat"></div>
+</div>
+<div class="container">
+	<!-- CBA -->
+	<div id="cba">
+		<div class="title"><img src="imgs/篮球.png" alt="">CBA
+		</div>
+		<div id="cba_container">
+		   <div class="cba_con">
+		   		<img src="imgs/j1.jpg" alt="">
+			<ul>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			</ul>
+		   </div>
+		   <div class="cba_con">
+		   		<img src="imgs/j1.jpg" alt="">
+			<ul>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			</ul>
+		   </div>
+		</div>
+	</div> 
+	<div class="clearfloat"></div> 
+</div>
+<div class="container2">
+	<div class="container">
+	<!-- 中国足球 -->
+	<div id="zgz">
+		<div class="title">中国足球<img src="imgs/足球.png" alt=""><i class="fa fa-bluetooth"></i>
+		</div>
+		<div id="zgz_container">
+		   <div class="zgz_con">
+		   		<img src="imgs/j1.jpg" alt="">
+			<ul>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			</ul>
+		   </div>
+		   <div class="zgz_con">
+		   		<img src="imgs/j1.jpg" alt="">
+			<ul>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			</ul>
+		   </div>
+		</div>
+	</div> 
+	</div>
+	<div class="clearfloat"></div> 
+</div>
+<div class="container">
+	<!-- 国际足球 -->
+	<div id="gjz">
+		<div class="title"><img src="imgs/足球.png" alt="">国际足球
+		</div>
+		<div id="gjz_container">
+		   <div class="gjz_con">
+		   		<img src="imgs/j1.jpg" alt="">
+			<ul>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			</ul>
+		   </div>
+		   <div class="gjz_con">
+		   		<img src="imgs/j1.jpg" alt="">
+			<ul>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+				<li><a href="#">哈登创尴尬纪录仍要夸？ 费城遍地是大胡子粉丝</a><span>03-10 11:30</span></li>
+			</ul>
+		   </div>
+		</div>
+	</div> 
+	<div class="clearfloat"></div> 
+</div>
+<div class="container">
+	<div id="zhibo">
+		<div id="shipin">
+			<div class="title">
+				<div class="icon-facetime-video">  视频集锦</div>
+			</div>
+			
+			<ul>
+				<li>
+					<img src="imgs/s1.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s3.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s4.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s1.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s3.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s2.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s3.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+				<li>
+					<img src="imgs/s4.jpg" alt="">
+					<span class="icon-play-circle"></span>
+					<p>库里集锦 砍12＋10逆天半场压哨三分</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="clearfloat"></div> 
+</div>
+	<div id="photos">
+		<div class="title"><span class="icon-picture"></span>  图片集锦</div>
+		<div id="photo1">
+			<img src="imgs/p1.jpg" class="p1" alt="">
+			<p>体育画报超模梅根-威廉姆斯</p>
+			<img src="imgs/p2.jpg" class="p2" alt="宝贝童颜美腿秀曼妙身姿 力挺球队称霸上海滩">
+			<img src="imgs/p3.jpg" class="p3" alt="宝贝童颜美腿秀曼妙身姿 力挺球队称霸上海滩">
+		</div>
+		<div id="photo2">
+			<img src="imgs/p4.jpg" class="p4" alt="">
+			<img src="imgs/p5.jpg" class="p4" alt="">
+			<img src="imgs/p6.jpg" class="p4" alt="">
+		</div>
+		<div id="photo3">
+			<img src="imgs/p8.jpg" class="p5" alt="">
+			<p class="pp7">女网友健身火辣出镜 比基尼秀完美曲线</p>
+			<img src="imgs/p7.jpg" class="p5" alt="">
+			<p class="pp8">苏宁宝贝嫩肤秀美腿 助威球队冲击冠军</p>
+		</div>
+		<div class="clearfloat"></div> 
+	</div>
+
+	<div id="footer">
+		<div id="wrap">
+			<p>公司地址：上海市普陀区真南路<br/>全国服务电话：400-xxx-5469<br/>版权所有：北京  京ICP备13024761号  技术支持：中国万网
+			</p>
+		</div>
+	</div>
+
+
+	<!-- 登陆 -->
+	<!-- 注册 -->
+	<div id="loginandreg">	
+	</div>
+	<div id="login_container">
+		<div id="log-title">
+			登陆
+		</div>
+		<div id="log-log">
+			<form id="jizhumima-form">
+				<span id="zhanghao">账号：</span>
+				<input id="log-zhanghao" type="text" class="focus" value="请输入账号..."></input>
+				<span id="mima">密码：</span>
+				<span id="wangjimima">忘记密码？</span>
+				<input id="log-mima" type="text"  class="focus" value="请输入密码..."></input>
+				<div id="jizhumima-form">
+					<input type="checkbox" name="bike" id="jizhumima-check"/>
+					<span id="jizhumima-conten">输入密码，下次登录免输入</span>
+				</div>
+				<input id="tijiao" type="submit" value="登 录"></input>
+				<span id="meiyouzhanghao">没有账号？<a href="#">立即注册</a></span>
+			</form>
+		</div>
+	</div>
+	<div id="reg_container">
+		<h1>注册</h1>
+		<table id="reg">
+		<tr>
+			<td class="regtext">昵称：</td>
+			<td><input type="text"  class="focus" value="请输入你的昵称/手机号/邮箱..."></td>
+		</tr>
+		<tr>
+			<td class="regtext">密码：</td>
+			<td><input type="text"  class="focus" value="请输入密码..."></td>
+		</tr>
+		<tr>
+			<td class="regtext">确认密码：</td>
+			<td><input type="text"  class="focus" value="请再次密码..."></td>
+		</tr>
+		<tr>
+			<td class="regtext">性别：</td>
+			<td class="check">男<input type="radio" checked="checked" name="sex">&nbsp;女<input type="radio" name="sex" >
+			</td>
+		</tr>
+		<tr>
+			<td class="regtext">手机号：</td>
+			<td><input type="text"  class="focus" value="选填..."></td>
+		</tr>
+		<tr><td></td>
+			<td><input type="button" class="btn" value="确定">&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+		</table>
+	</div>
+	
+	<div id="returntop">
+		Top
+	</div>
+</body>
+<script>
+		var oContainer = document.getElementById('slide');
+		var oTab = document.getElementById('tab');
+		var aLi = oTab.getElementsByTagName('li');
+		var oImgs = document.getElementById('imgs');
+		var aImg = oImgs.getElementsByTagName('img');
+		var index = 0;//代表当前图片的索引
+
+		function changeImg(index){
+			for(var i=0; i<aLi.length; i++){
+				aLi[i].className = "";
+				aImg[i].className = "";
+			}
+			//elem.className = 'selected';
+			aLi[index].className = 'selected';
+			aImg[index].className = 'selected';
+		}
+
+		for(var i=0; i<aLi.length; i++){
+			aLi[i].index = i;
+			aLi[i].onmouseover = function(){
+				index = this.index;
+				changeImg(index);
+			};
+		}
+
+		var oPrev = document.getElementById('prev');
+		var oNext = document.getElementById('next');
+		oPrev.onclick = function(){
+			index--;
+			if(index == -1){
+				index = aLi.length - 1;
+			}
+			changeImg(index);
+		};
+		oNext.onclick = function(){
+			index++;
+			if(index == aLi.length){
+				index = 0;
+			}
+			changeImg(index);
+		};
+
+		var timer;
+		function play(){
+			timer = setInterval(function(){
+				oNext.onclick();
+			}, 2000);
+		}
+
+		play();
+
+		oContainer.onmouseover = function(){
+			clearInterval(timer);
+		};
+		oContainer.onmouseout = function(){
+			play();
+		};
+
+	</script>
+	
+
+</html>
+

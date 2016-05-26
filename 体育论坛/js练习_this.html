@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+  <head>
+    <title>daohang</title>
+  </head>
+  <style>
+
+  </style>
+  <body>
+  	<div id="div1">
+  		<div id="div2">aaaaaaaaaa</div>
+  	</div>
+<script>
+	
+	function dosomething(){
+		alert(this);
+	}
+	var div2 = document.getElementById('div2');
+	// div2.onclick = dosomething;//object HTMLdivelement
+	// div2.onclick = dosomething();//object window
+	div2.onclick = function(){dosomething();};//object window
+
+</script>
+  </body>
+  </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+  <head>
+    <title>daohang</title>
+  </head>
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+<body>
+ 	<div id="div1">
+ 		<div id="div2">aaaaaaaaaaa</div>
+ 	</div>
+
+ 	<p><b>Test</b> Paragraph.</p>
+ 	<p></p>
+
+</body>
+	<script>
+		$('#div1').click(function(){
+			var div3 = $(this).html();
+			$(this).prepend("bbbbbbbbbb");//往前面插
+			$(this).prepend(div3);//往后面插
+		});
+
+		var str = $("p:first").text();
+		$("p:last").html(str);
+	</script>
+</html> 
